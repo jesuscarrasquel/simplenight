@@ -1,0 +1,13 @@
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: 20px;
+  background-color: var(--gray);
+}
+.footer__wrapper span {
+  color: white;
+  font-size: var(--small);
+}

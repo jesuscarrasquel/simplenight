@@ -1,0 +1,148 @@
+.sidebar {
+  padding: 20px;
+}
+.sidebar__wrapper {
+  /* padding: 10px; */
+  border: 1px solid rgb(211, 202, 202);
+}
+.quantity__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+.quantity__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.iconContent {
+  display: flex;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: solid 0.1px var(--blue);
+  background-color: var(--blue);
+  padding: 5px;
+  width: 100px;
+}
+
+.iconContent span {
+  background-color: white;
+  text-align: center;
+  flex: 1;
+}
+
+.iconQuantity {
+  color: white;
+  flex: 1;
+}
+
+.quantity__item > span {
+  font-size: var(--medium);
+  color: var(--gray);
+}
+.booking__container {
+}
+
+.date__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input__form {
+  padding: 20px;
+}
+.itemDate {
+  padding: 10px;
+}
+.itemDate span {
+  font-size: var(--medium);
+  color: var(--gray);
+}
+.itemDate input {
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(211, 202, 202);
+  outline: none;
+}
+.order__container {
+  margin-top: 20px 0px;
+}
+.title__order {
+  margin-top: 20px;
+}
+.title__order span {
+  font-size: var(--medium);
+  color: var(--gray);
+  font-weight: 300;
+}
+.room__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.room__container > span {
+  font-size: var(--small);
+  color: var(--gray);
+  font-weight: 500;
+}
+
+.roomTime {
+  display: flex;
+  align-items: center;
+}
+.roomTime span {
+  color: var(--blue);
+  font-size: var(--small);
+  font-weight: 500;
+}
+.cancelIcon {
+  margin-left: 5px;
+  color: var(--gray);
+  font-size: var(--small) !important;
+}
+.total__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.total__container .total {
+  font-size: var(--medium);
+  color: var(--gray);
+  font-weight: 300;
+  margin-right: 10px;
+}
+.total__container .totalNumber {
+  font-size: var(--medium);
+  color: var(--blue);
+  font-weight: 500;
+}
+.buttons__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.book__now {
+  background-color: rgba(0, 51, 152, 0.2);
+  border: none;
+  height: 50px;
+  font-size: var(--medium);
+  color: var(--blue);
+  font-weight: 500;
+}
+.addItininerary {
+  background-color: var(--blue);
+  border: none;
+  height: 50px;
+  font-size: var(--medium);
+  color: white;
+  font-weight: 500;
+}
+/* ::-webkit-calendar-picker-indicator {
+  background: url(https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/calendar-16.png)
+    center/80% no-repeat;
+  color: red;
+} */

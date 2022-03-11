@@ -1,0 +1,15 @@
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.content__wrapper {
+  display: flex;
+  width: 80%;
+}
+.mainContent__container {
+  flex: 3;
+}
+.sidebar__container {
+  flex: 1;
+}

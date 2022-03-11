@@ -1,0 +1,39 @@
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.options__wrapper {
+  width: 80%;
+  padding: 20px;
+}
+.title__options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container__iconOptions {
+  border-radius: 50%;
+  background-color: var(--blue);
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.iconHotelOptions {
+  font-size: 30px !important;
+  color: white;
+}
+.title__options h3 {
+  font-size: var(--large);
+  color: var(--gray);
+  font-weight: 300;
+}
+.options__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}

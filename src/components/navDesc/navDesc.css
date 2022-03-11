@@ -1,0 +1,26 @@
+.navDesc__wrapper {
+  margin-top: 50px;
+}
+
+.navDesc__wrapper ul {
+  display: flex;
+  list-style: none;
+  border-bottom: 4px solid rgb(211, 202, 202);
+  position: relative;
+}
+
+.navDesc__wrapper ul li {
+  margin-right: 30px;
+  color: var(--gray);
+  font-weight: 500;
+  font-size: var(--medium);
+  width: 100px;
+}
+.navDesc__wrapper ul .active {
+  color: var(--blue);
+  border-bottom: 5px solid var(--blue);
+  position: absolute;
+  left: 400px;
+  display: flex;
+  justify-content: center;
+}

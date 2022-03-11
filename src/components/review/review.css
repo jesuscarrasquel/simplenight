@@ -1,0 +1,10 @@
+.review {
+  margin: 0px 20px;
+  margin-top: 50px;
+  border: 1px solid rgb(211, 202, 202);
+  padding: 20px;
+}
+
+.iconReview__container svg {
+  font-size: 40px !important;
+}
